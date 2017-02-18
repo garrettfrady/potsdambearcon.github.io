@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Potsdam Bearcon </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ek+Mukta:600' rel='stylesheet' type='text/css'>
+  <link rel="canonical" href="http://w3bits.com/demo/css-masonry/">
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+  a{
+	  color:#ED2227;
+	  /*background-color:#501620;*/
+	  text-shadow: 2px 2px #501620;
+  }
+
+  #sash{
+    -ms-transform: rotate(350deg); /* IE 9 */
+    -webkit-transform: rotate(350deg); /* Chrome, Safari, Opera */
+    transform: rotate(350deg);
+  }
+  
+  body{
+	  background-color:#BDCFC4;
+	  color: white;/*#BDCFC4;*/
+	  /*font-family: 'Ek Mukta', sans-serif;*/
+	  /*font-family: 'Acme', sans-serif;*/
+	  font-family:'Fjalla One', sans-serif;
+	  font-stretch: ultra-expanded;
+	  font-weight:lighter;
+  }
+  .col-sm-4{
+	  text-shadow: 2px 2px #501620;
+      border-radius: 25px;
+	  padding:1em;
+   }
+   .inside{
+	  background-color:#BD1D31;
+	  padding:1em;
+   }
+	.nav{
+		margin-left:-15px;
+		margin-right:-15px;
+		margin-bottom:-1px;
+		background-color:#73182E;
+	}
+  .circle{
+    margin-left:0px;
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    background:#BD1D31;
+  }
+
+  .masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1.5em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  max-height: 500px;
+  max-width: 500px; 
+}
+  </style>
+</head>
+<body>
+
+<!--<div class="container">-->
+
+  <!-- Big screen in middle with div across it. -->
+  <div class="jumbotron" style="margin-bottom:10px;min-height:300px; padding:0px;background-color:#73182E;">
+
+    <div id="sash">
+      <!--<h1>Bearcon 2016 <small>I can't bear the wait! </small> </h1>-->
+      <div class="circle">
+        <div style="float:left; height:130px; width:130; margin-top:25px; margin-left:25px">
+      		<img src="logo.gif" alt="bearcon_logo" style="width:250px; height:250px;"></img>
+		</div>
+        <div style="height:100px;width:700px;">
+  	  		<h1 style="margin-left:290px; font-size:80pt; font-weight:bold; text-shadow: 2px 2px #501620;">Bearcon</h1>
+        </div>
+        <div style=" background-color:#BD1D31;width:10000px; margin-left:20px; color:#BD1D31;">
+	  		.
+	  		<div style="float:left; margin-left:50px;color:white;text-shadow: 2px 2px #501620;">               
+                <h3 style="font-weight:bold;">
+            	   November 4th-6th,   at SUNY Potsdam 
+                </h3> 
+          </div>
+       	</div>
+        <div style="color:#BD1D31;">
+        	<br>
+           .
+		</div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li style="width:20%;color:#BD1D31;">. </li>
+    <li><a href="index.html"><h4>Home</h4></a></li>
+    <li><a href="register.html"><h4>Register<h4></a></li>
+    <li><a href="panels.html"><h4>Panels</h4></a></li>
+
+    <li><a href="gallery.html"><h4>Gallery</h4></a></li>
+
+    <li><a href="directions.html"><h4>Directions</h4></a></li>
+    <li><a href="vendors.html"><h4>Vendors</h4></a></li>
+    <li><a href="https://www.facebook.com/profile.php?id=100009239788987"><h4>Facebook</h4></a></li>
+    <li><a href="contact.html"><h4>Contact Us</h4></a></li>
+  </ul>
+
+  <div class="row" style="background-color:#73182E;">
+    <div class="col-sm-12">
+      <div class="inside">
+        <h3>Image Gallery</h3>
+            <br>
+            <section id="photos">
+
+                <img src="res/DSC00101.JPG" alt="Cute cat">
+                <img src="res/DSC00070.JPG" alt="Cute cat">
+                <img src="res/StaffArmcannon.JPG " alt="Cute cat">
+                <img src="res/bearcon15.jpg" alt="Cute cat">
+                <img src="res/bearcon18.jpg" alt="Cute cat">
+
+                <img src="res/bearcon7.jpg" alt="Cute cat">
+                <img src="res/bearcon12.jpg" alt="Cute cat">
+                <img src="res/14886069_1233938893329809_1579528680_n.jpg" alt="Cute cat">
+                <img src="res/14954395_1233938833329815_349050540_o..jpg" alt="Cute cat">
+
+                <img src="res/2012_08.JPG" alt="Cute cat">
+                <img src="res/2012_12.JPG" alt="Cute cat">
+                <img src="res/DSCN5198.JPG" alt="Cute cat">
+                <img src="res/DSCN5199.JPG" alt="Cute cat">
+                <img src="res/DSCN5202.JPG" alt="Cute cat">
+
+                <img src="res/DSCN5245.JPG" alt="Cute cat">
+                <img src="res/DSCN5247.JPG" alt="Cute cat">
+                <img src="res/DSCN5251.JPG" alt="Cute cat">
+                <img src="res/DSCN5253.JPG" alt="Cute cat">
+                <img src="res/DSCN5254.JPG" alt="Cute cat">
+
+                <img src="res/14954402_1233938913329807_1060824475_o.jpg" alt="Cute cat">
+                <img src="res/14958041_1233938839996481_667273124_o.jpg" alt="Cute cat">
+
+                <img src="res/DSCN5237.JPG" alt="Cute cat">
+                <img src="res/DSCN5242.JPG" alt="Cute cat">
+
+                <img src="res/14958205_1233938856663146_776815114_o.jpg" alt="Cute cat">
+                <img src="res/14964064_1233938876663144_1954971630_o.jpg" alt="Cute cat">
+                <img src="res/14971552_1233938879996477_280463106_o.jpg" alt="Cute cat">
+                <img src="res/DSC00067.JPG" alt="Cute cat">
+
+                <img src="res/2012_08.JPG" alt="Cute cat">
+                <img src="res/2012_12.JPG" alt="Cute cat">
+                <img src="res/DSCN5198.JPG" alt="Cute cat">
+                <img src="res/DSCN5199.JPG" alt="Cute cat">
+                <img src="res/DSCN5202.JPG" alt="Cute cat">
+
+                <img src="res/DSCN5205.JPG" alt="Cute cat">
+                <img src="res/DSCN5213.JPG" alt="Cute cat">
+                <img src="res/DSCN5223.JPG" alt="Cute cat">
+                <img src="res/DSCN5229.JPG" alt="Cute cat">
+                <img src="res/DSCN5234.JPG" alt="Cute cat">
+
+                <img src="res/DSCN5262.JPG" alt="Cute cat">
+                <img src="res/DSCN5264.JPG" alt="Cute cat">
+                <img src="res/DSCN5274.JPG" alt="Cute cat">
+                <img src="res/DSCN5275.JPG" alt="Cute cat">
+                <img src="res/DSCN5276.JPG" alt="Cute cat">
+
+                <img src="res/DSCN5277.JPG" alt="Cute cat">
+                <img src="res/DSCN5279.JPG" alt="Cute cat">
+            </section>
+
+      </div>
+    </div>
+  </div>
+  <div class="row container" style="margin-top:75;background-color:#73182E; text-align:center; min-height:65px;">
+    <div class="" style="padding:1em;">
+	<br>
+      <div style="padding:1em;text-shadow: 2px 2px #501620;">
+	    Brought to you by SGA of SUNY Potsdam, Bearcon Committee and site created by Brandon T. Wood.
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
