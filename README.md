@@ -1,5 +1,8 @@
-# Getting involved in BearCon website development. 
+# Getting involved in BearCon website development.
+
 Here's how to get involved in the BearCon project. 
+
+Content can be found here: https://docs.google.com/document/d/1I9Us4ZZuR9Gu4YlbVXJzaEyoPmVjSjj2M77mD2K7mbM/edit#
 
 1. Send me your github handles (create a github if you haven't)
 2. I will then add you to this project
